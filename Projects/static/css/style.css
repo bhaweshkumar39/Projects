@@ -1,0 +1,17 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, sans-serif; background: #12141a; color: #eee; }
+main { max-width: 1000px; margin: 0 auto; padding: 20px; text-align: center; }
+h1 { margin-bottom: 4px; }
+.hint { color: #9aa; margin-top: 0; }
+.video-box { background: #000; border-radius: 12px; overflow: hidden; line-height: 0; }
+.video-box img { width: 100%; height: auto; }
+.controls { display: flex; flex-wrap: wrap; gap: 16px; justify-content: center;
+            align-items: center; margin: 16px 0; }
+.controls label { display: flex; flex-direction: column; font-size: 14px; gap: 4px; }
+.controls label.check { flex-direction: row; align-items: center; }
+button { background: #2e8b57; color: #fff; border: 0; padding: 10px 20px;
+         font-size: 16px; border-radius: 8px; cursor: pointer; }
+button:disabled { background: #555; cursor: default; }
+select, input[type=range] { padding: 4px; }
+.status { display: flex; gap: 24px; justify-content: center; font-size: 15px; }
+#msg { color: #f90; }
